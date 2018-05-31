@@ -7,6 +7,9 @@
 url: "http://bigbio.github.io"
 baseurl: ""
 
+paginate: 2
+paginate_path: "posts/page:num"
+
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
@@ -24,11 +27,12 @@ description: An Stack of algorithms and tools to perform bioinformatics using Bi
 # List of links in the navigation bar
 navbar-links:
   Posts: "posts"
-  About Me: "aboutme"
   Resources:
     - File Formats: "https://github.com/bigbio/"
     - Tools: "https://github.com/bigbio/"
     - GitHub: "https://github.com/bigbio/"
+  About Us: "aboutme"
+
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
